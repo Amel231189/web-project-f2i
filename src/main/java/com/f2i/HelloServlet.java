@@ -22,7 +22,7 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 
-		response.getWriter().println("Hello  new Servlet from github : "+ new Date ());
+		response.getWriter().println("Hello jenkins from github : "+ new Date ());
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
