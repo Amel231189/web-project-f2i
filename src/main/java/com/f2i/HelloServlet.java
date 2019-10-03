@@ -22,7 +22,7 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 
-		response.getWriter().println("Hello Servlet : "+ new Date ());
+		response.getWriter().println("Hello  new Servlet : "+ new Date ());
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
