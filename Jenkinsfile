@@ -13,6 +13,11 @@ pipeline {
 		  }
         
 	  }
+	  stage ('Deploy to Testing') {
+		  steps {
+			  build job:'deploy-test'
+		  }
+	  }
    }
    
 }
